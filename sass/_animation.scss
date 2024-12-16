@@ -1,0 +1,110 @@
+//THEME 1
+.container {
+  background-color: $main-bg-t1;
+}
+.white-text {
+  color: $screen-text-t1;
+  font-weight: 900;
+}
+.bg--change {
+  background-color: $togg-bg-t1;
+  .indicator {
+    background-color: $toggle-bg-t1;
+  }
+}
+input {
+  background-color: $screen-bg-t1;
+  color: $screen-text-t1;
+}
+.calc--buttons {
+  background-color: $screen-bg-t1;
+}
+.calc-btn {
+  border: none;
+  background-color: $btn-bg-t1;
+  color: $btn-text-t1;
+  box-shadow: 0.01rem 0.2rem 0.1rem $key-bg-shadow-t1;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.opp {
+  border: none;
+  background-color: $key-bg-t1;
+  box-shadow: 0.01rem 0.2rem 0.1rem $key-bg-shadow-t1;
+  color: $screen-text-t1;
+  font-weight: 900;
+}
+.equal {
+  background-color: $toggle-bg-t1;
+  box-shadow: 0.01rem 0.2rem 0.1rem $toggle-shadow-t1;
+  color: $screen-text-t1;
+}
+
+//THEME 2
+.container-t2 {
+  background-color: $main-bg-t2;
+  .white-text {
+    color: $btn-text-t2;
+  }
+  .bg--change {
+    background-color: $togg-bg-t2;
+    .indicator {
+      background-color: $toggle-bg-t2;
+    }
+  }
+  input {
+    background-color: $screen-bg-t2;
+    color: $btn-text-t2;
+  }
+  .calc--buttons {
+    background-color: $togg-bg-t2;
+    color: $btn-text-t2;
+  }
+  .calc-btn {
+    box-shadow: 0.01rem 0.2rem 0.1rem $key-bg-shadow-t2;
+  }
+  .equal {
+    background-color: $toggle-bg-t2;
+    box-shadow: 0.01rem 0.2rem 0.1rem $key-bg-shadow-t2;
+  }
+  .opp {
+    background-color: $key-bg-shadow-t2;
+  }
+}
+
+//THEME 3
+.container-t3 {
+  background-color: $main-bg-t3;
+  .white-text {
+    color: $btn-text-t3;
+  }
+  .bg--change {
+    background-color: $togg-bg-t3;
+
+    .indicator {
+      background-color: $toggle-bg-t3;
+    }
+  }
+
+  input {
+    background-color: $togg-bg-t3;
+    color: $btn-text-t3;
+  }
+  .calc--buttons {
+    background-color: $togg-bg-t3;
+  }
+  .calc-btn {
+    background-color: $key-bg-t3;
+    box-shadow: 0.01rem 0.2rem 0.1rem $key-bg-shadow-t3;
+    color: $btn-text-t3;
+  }
+  .equal {
+    background-color: $toggle-bg-t3;
+    box-shadow: 0.01rem 0.2rem 0.1rem $key-bg-shadow-t3;
+  }
+  .opp {
+    background-color: $key-bg-shadow-t3;
+  }
+}

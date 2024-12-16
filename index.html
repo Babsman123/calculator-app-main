@@ -28,9 +28,54 @@
   </head>
   <body>
     <div class="container">
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
+      <div class="container--calc">
+        <div class="calc--toggle">
+          <h3 class="white-text">calc</h3>
+
+          <div class="toggle--button">
+            <p class="theme white-text">THEME</p>
+
+            <div class="toggle--change">
+              <div class="number--change">
+                <p class="white-text">1</p>
+                <p class="white-text">2</p>
+                <p class="white-text">3</p>
+              </div>
+              <div class="bg--change">
+                <i class="indicator"></i>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="calc--display">
+          <input type="text" class="calc-view" readonly />
+        </div>
+
+        <div class="calc--buttons">
+          <button class="btn calc-btn btn--1">1</button>
+          <button class="btn calc-btn btn--2">2</button>
+          <button class="btn calc-btn btn--3">3</button>
+          <button class="btn calc-btn btn--4">4</button>
+          <button class="btn calc-btn btn--5">5</button>
+          <button class="btn calc-btn btn--6">6</button>
+          <button class="btn calc-btn btn--7">7</button>
+          <button class="btn calc-btn btn--8">8</button>
+          <button class="btn calc-btn btn--9">9</button>
+          <button class="btn calc-btn btn--0">0</button>
+          <button class="btn calc-btn btn--point">.</button>
+          <button class="delete opp">DEL</button>
+          <button class="operate calc-btn add">+</button>
+          <button class="operate calc-btn minus">-</button>
+          <button class="operate calc-btn divide">/</button>
+          <button class="operate calc-btn multiply">x</button>
+          <button class="reset opp">RESET</button>
+          <button class="equal">=</button>
+        </div>
+      </div>
     </div>
 
     <div class="attribution">
@@ -39,5 +84,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Tunde Adelani</a>.
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>

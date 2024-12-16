@@ -1,1 +1,68 @@
+//THEME 1
+$main-bg-t1: hsl(222, 26%, 31%);
+$togg-bg-t1: hsl(223, 31%, 20%);
+$screen-bg-t1: hsl(224, 36%, 15%);
+$key-bg-t1: hsl(225, 21%, 49%);
+$key-bg-shadow-t1: hsl(224, 28%, 35%);
+$toggle-bg-t1: hsl(6, 63%, 50%);
+$toggle-shadow-t1: hsl(6, 70%, 34%);
+$btn-bg-t1: hsl(30, 25%, 89%);
+$btn-bg-shadow-t1: hsl(28, 16%, 65%);
+$btn-text-t1: hsl(221, 14%, 31%);
+$screen-text-t1: hsl(0, 0%, 100%);
 
+//THEME 2
+$main-bg-t2: hsl(0, 0%, 90%);
+$togg-bg-t2: hsl(0, 5%, 81%);
+$screen-bg-t2: hsl(0, 0%, 93%);
+$key-bg-t2: hsl(185, 42%, 37%);
+$key-bg-shadow-t2: hsl(185, 58%, 25%);
+$toggle-bg-t2: hsl(25, 98%, 40%);
+$toggle-shadow-t2: hsl(25, 99%, 27%);
+$btn-bg-t2: hsl(45, 7%, 89%);
+$btn-bg-shadow-t2: hsl(35, 11%, 61%);
+$btn-text-t2: hsl(60, 10%, 19%);
+$screen-text-t2: hsl(0, 0%, 100%);
+
+//THEME 3
+$main-bg-t3: hsl(268, 75%, 9%);
+$togg-bg-t3: hsl(268, 71%, 12%);
+// $screen-bg-t3: hsl(0, 0%, 93%);
+$key-bg-t3: hsl(281, 89%, 26%);
+$key-bg-shadow-t3: hsl(285, 91%, 52%);
+$toggle-bg-t3: hsl(176, 100%, 44%);
+$toggle-shadow-t3: hsl(25, 99%, 27%);
+$btn-bg-t3: hsl(45, 7%, 89%);
+$btn-bg-shadow-t3: hsl(35, 11%, 61%);
+$btn-text-t3: hsl(52, 100%, 62%);
+$screen-text-t3: hsl(0, 0%, 100%);
+
+//MEDIA QUERY
+$bp-small: 37.5em;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; //10px === 1rem
+}
+
+.container {
+  height: 100vh;
+  //   background-color: $main-bg-t1;
+  &--calc {
+    max-width: 500px;
+    min-height: 40vh;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    &--calc {
+      width: 360px;
+    }
+  }
+}
