@@ -4,6 +4,7 @@
 }
 .white-text {
   color: $screen-text-t1;
+  font-family: "League Spartan", serif;
   font-weight: 900;
 }
 .bg--change {
@@ -28,6 +29,7 @@ input {
   padding: 1.5rem;
   font-size: 2rem;
   font-weight: 900;
+  font-family: "League Spartan", serif;
 }
 .opp {
   border: none;
@@ -35,11 +37,14 @@ input {
   box-shadow: 0.01rem 0.2rem 0.1rem $key-bg-shadow-t1;
   color: $screen-text-t1;
   font-weight: 900;
+  font-family: "League Spartan", serif;
+  font-size: 2rem;
 }
 .equal {
   background-color: $toggle-bg-t1;
   box-shadow: 0.01rem 0.2rem 0.1rem $toggle-shadow-t1;
   color: $screen-text-t1;
+  font-family: "League Spartan", serif;
 }
 
 //THEME 2

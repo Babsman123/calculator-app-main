@@ -1,7 +1,9 @@
 .toggle--change {
+  align-self: center;
   .bg--change {
     position: relative;
     cursor: pointer;
+    border: 1px solid $screen-text-t1;
 
     .indicator {
       position: absolute;
@@ -24,6 +26,7 @@
     border: none;
     border-radius: 1rem;
     font-size: 3rem;
+    font-family: "League Spartan", serif;
     padding: 1rem;
     text-align: right;
     font-weight: 900;
@@ -33,14 +36,9 @@
 .calc--buttons {
   border-radius: 1rem;
   display: none;
-  .btn {
-    // border: none;
-  }
+
   .equal {
     border: none;
     font-size: 3.2rem;
-  }
-  .delete {
-    font-size: 2rem;
   }
 }

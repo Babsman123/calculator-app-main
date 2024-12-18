@@ -45,8 +45,6 @@
 
     .bg--change {
       width: 58px;
-      // height: 3vh;
-      min-height: 3vh;
       border-radius: 1rem;
       align-self: center;
 
@@ -55,6 +53,7 @@
       .box {
         width: 30px;
         height: 100%;
+        padding: 1rem 1rem;
         // border: 1px solid yellow;
         border-radius: 1rem;
       }
