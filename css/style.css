@@ -9,13 +9,15 @@ html {
   font-size: 62.5%; }
 
 .container {
-  height: 100vh; }
+  height: 100vh;
+  font-family: "League Spartan", serif;
+  display: none; }
   .container--calc {
-    max-width: 500px;
+    max-width: 50rem;
     min-height: 40vh; }
   @media only screen and (max-width: 37.5em) {
     .container--calc {
-      width: 360px; } }
+      width: 36rem; } }
 
 .toggle--change .bg--change {
   position: relative;
@@ -42,7 +44,8 @@ html {
     font-weight: 900; }
 
 .calc--buttons {
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  display: none; }
   .calc--buttons .equal {
     border: none;
     font-size: 3.2rem; }
